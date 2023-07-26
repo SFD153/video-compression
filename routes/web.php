@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/compression', 'VideoUploadController@show');
+Route::post('/compression', 'VideoUploadController@compression');
