@@ -38,22 +38,24 @@ To run this project, you'll need the following:
 
 2. Install dependencies:
 
-    - composer install
-    - Configure your .env file:
+    ```sh
+    composer install
 
 3. Configure your .env file:
 
-    - cp .env.example .env
-    - php artisan key:generate
-    - Run migrations and seeders:
+    ```sh
+    cp .env.example .env
+    php artisan key:generate
 
 4. Run migrations and seeders:
 
-    - php artisan migrate --seed
+    ```sh
+    php artisan migrate --seed
 
-5. Run migrations and seeders:
+5. Start the development server:
 
-    - Run migrations and seeders:
+    ```sh
+    php artisan serve
 
 ## Usage
 
