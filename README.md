@@ -33,7 +33,7 @@ To run this project, you'll need the following:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/video-compression-laravel.git
+   git clone https://github.com/SFD153/video-compression.git
    cd video-compression-laravel
 
 2. Install dependencies:
